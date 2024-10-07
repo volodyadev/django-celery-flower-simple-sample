@@ -15,3 +15,7 @@ curl -X POST -d "value=30" http://127.0.0.1:1337/tasks/
 # Отслeживаем задачи
 
 http://localhost:5555/tasks
+
+# Получаем статут задачи
+
+http://localhost:1337/tasks/<task_id/
